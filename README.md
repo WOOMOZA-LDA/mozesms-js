@@ -25,11 +25,20 @@ de credenciais.
 
 ## Instalar
 
+**Direto do GitHub** (funciona já; compila ao instalar, por isso demora um ou dois minutos):
+
+```bash
+npm install github:WOOMOZA-LDA/mozesms-js
+```
+
+**Pelo npm** (quando o pacote estiver publicado lá):
+
 ```bash
 npm install @woomoza/mozesms
 ```
 
-Requisitos: Node 18+ no servidor; React 17+ só se usar os hooks (peer dependency opcional).
+Requisitos: Node 18+ no servidor; React 17+ só se usar os hooks (peer dependency opcional: um projeto só de servidor não precisa de React).
+Em ambos os casos o código fica em `@woomoza/mozesms`, `@woomoza/mozesms/server` e `@woomoza/mozesms/react`.
 
 ## Início rápido (Next.js, App Router)
 
