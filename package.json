@@ -68,6 +68,7 @@
   },
   "scripts": {
     "build": "tsup",
+    "prepare": "npm run build",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.examples.json",
     "test": "vitest run",
     "prepublishOnly": "npm run typecheck && npm test && npm run build"
